@@ -23,3 +23,5 @@ JUMP label1
 "label2" PRINT CALCED
 PRINT_INT RESULT
 STOP
+"fib" 
+STACK
