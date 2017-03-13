@@ -1,4 +1,5 @@
 TMP 0
+TMP1 0
 PREV 0
 RESULT 1
 USER_NUM 0
@@ -9,7 +10,8 @@ IN_PROC "Calculations in progress"
 CALCED "Your result is: "
 START
 PRINT INVIT
-READ_INT USER_NUM
+READ_INT
+POP USER_NUM
 PRINT IN_PROC
 "label1" IF_EQ CNT USER_NUM
 CJUMP label2
