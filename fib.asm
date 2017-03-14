@@ -5,7 +5,7 @@ RESULT 1
 USER_NUM 0
 CNT 1
 STEP 1
-INVIT "Enter your number (from 1 to 47)"
+INVIT "This programm calculates Fibonacci sequence, enter your number (from 1 to 47)"
 IN_PROC "Calculations in progress"
 CALCED "Your result is: "
 START
@@ -18,10 +18,10 @@ CJUMP label2
 MV TMP PREV
 MV PREV RESULT
 ADD RESULT TMP
-ADD CNT STEP
+ADD CNT 1
+PRINT_INT 7
 JUMP label1
 "label2" PRINT CALCED
 PRINT_INT RESULT
 STOP
-"fib" 
 STACK
